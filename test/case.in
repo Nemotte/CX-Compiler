@@ -1,0 +1,17 @@
+{
+    const int a = 1;
+    int b;
+    int c;
+    int d;
+    int sw;
+    b = 2;
+    c = 3;
+    d = 4;
+    read sw;
+    switch(sw){
+        case 1: write a;
+        case 2: write b;
+        case 3: write c;
+        default: write d;
+    }
+}

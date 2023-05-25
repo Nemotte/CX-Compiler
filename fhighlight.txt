@@ -1,0 +1,21 @@
+<font color="#FFD700">{</font>
+    <font color="#00008B">int</font> a;
+    <font color="#00008B">int</font> b;
+    <font color="#00008B">int</font> c;
+    <font color="#00008B">int</font> moda;
+    <font color="#00008B">int</font> modb;
+    <font color="#F0E68C">read</font> a;
+    <font color="#F0E68C">read</font> b;
+    <font color="#DA70D6">if</font> <font color="#FFD700">(</font>a > b<font color="#FFD700">)</font>
+        c = a;
+    <font color="#DA70D6">else</font>
+        c = b;
+    moda = c  a;
+    modb = c  b;
+    <font color="#DA70D6">while</font> <font color="#FFD700">(</font>moda != 0 || modb != 0<font color="#FFD700">)</font> <font color="#FFD700">{</font>
+        c++;
+        moda = c  a;
+        modb = c  b;
+    <font color="#FFD700">}</font>
+    <font color="#F0E68C">write</font><font color="#FFD700">(</font>c<font color="#FFD700">)</font>;
+<font color="#FFD700">}</font>

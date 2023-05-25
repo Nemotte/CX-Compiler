@@ -1,0 +1,11 @@
+{
+    int a;
+    int b;
+    int c;
+    read a;
+    c = 1;
+    for(b = 2; b <= a; b++){
+        c = c*b;
+    }
+    write c;
+}

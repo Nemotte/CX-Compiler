@@ -1,0 +1,21 @@
+{
+    int a;
+    int b;
+    int c;
+    int moda;
+    int modb;
+    read a;
+    read b;
+    if (a > b)
+        c = a;
+    else
+        c = b;
+    moda = c % a;
+    modb = c % b;
+    repeat {
+        c++;
+        moda = c % a;
+        modb = c % b;
+    }until (moda == 0 && modb == 0);
+    write(c);
+}  

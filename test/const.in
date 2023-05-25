@@ -1,0 +1,6 @@
+{
+    const int a = 1;
+    int b;
+    b = 3;
+    write a;
+}   
